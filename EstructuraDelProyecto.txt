@@ -1,0 +1,22 @@
+auth_system/
+├── app.py                 # ✅ Aplicación principal Flask (COMPLETO)
+├── database.py           # ✅ Configuración de base de datos
+├── models.py             # ✅ Modelos de datos
+├── utils.py              # ✅ Utilidades y helpers
+├── requirements.txt      # ✅ Dependencias del proyecto
+├── templates/
+│   ├── base.html         # ✅ Template base
+│   ├── index.html        # ✅ Página principal
+│   ├── register.html     # ✅ Registro de usuarios
+│   ├── login.html        # ✅ Login de usuarios
+│   ├── admin_login.html  # ✅ Login de administrador
+│   ├── admin.html        # ✅ Dashboard administrativo
+│   ├── admin_users.html  # ✅ Gestión de usuarios (NUEVO)
+│   ├── admin_activities.html # ✅ Registro de actividades (NUEVO)
+│   ├── success.html      # ✅ Página de éxito (COMPLETO)
+│   └── error.html        # ✅ Página de errores (NUEVO)
+└── static/
+    ├── css/
+    │   └── style.css     # ✅ Estilos principales
+    └── js/
+        └── script.js     # ✅ JavaScript del frontend
